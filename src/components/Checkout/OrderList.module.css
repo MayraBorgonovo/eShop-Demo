@@ -1,0 +1,36 @@
+.orderList ul {
+  width: 100%;
+}
+
+.orderList li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  width: 100%;
+  border-bottom: 1px solid #c3c3c3;
+}
+
+.details span {
+  font-weight: bold;
+  color: #464646;
+  margin-top: 0.5rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.actions button {
+  background: white;
+  color: black;
+  border: 1px solid #c3c3c3;
+}
+
+@media screen and (max-width: 768px) {
+  .productList {
+    margin: 0 auto;
+  }
+}

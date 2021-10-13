@@ -1,0 +1,65 @@
+.product {
+  width: 25%;
+  margin: 1rem;
+  position: relative;
+}
+
+.image img { 
+  display: block;
+  width: 100%;
+  height: 37rem;
+  object-fit: cover;
+}
+
+.after {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  z-index: 2;
+  transition: opacity .4s;
+}
+
+.image:hover img.after  {
+  opacity: 1;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 7.5rem;
+}
+
+.details h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 0.5rem 0;
+}
+
+.details p {
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 992px) {
+  .product {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .product {
+    width: 100%;
+  }
+}

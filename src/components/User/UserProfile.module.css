@@ -1,0 +1,15 @@
+.userForm {
+  max-width: 50rem;
+}
+
+.userForm p {
+  font-size: 1.4rem;
+  color: #d53333;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .userForm {
+    margin: 0 auto;
+  }
+}

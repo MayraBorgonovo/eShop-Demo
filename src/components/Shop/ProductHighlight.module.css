@@ -1,0 +1,89 @@
+.backLink {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 2rem 0 0 2rem;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}
+
+.details {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  width: 100%;
+  color: #464646;
+}
+
+.actions {
+  width: 40%;
+  margin:  0 2rem;
+  max-width: 30rem;
+}
+
+.actions h2,
+.description h2 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: black;
+}
+
+.actions h3 {
+  font-size: 1.85rem;
+  margin-bottom: 5rem;
+}
+
+.actions span,
+.actions label {
+  font-weight: bold;
+}
+
+.actions form {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+.actions select {
+  font: inherit;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+}
+
+.actions select:focus {
+  outline: none;
+  box-shadow: 0px 0px 2px 2px rgb(16 138 224 / 40%);
+}
+
+.actions form.invalid select {
+  border-color: red;
+  box-shadow: 0px 0px 1px 1px rgb(224 16 40 / 20%);
+}
+
+.actions form p {
+  color: red;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+
+.description {
+  width: 100%;
+  color: #555454;
+  padding: 3rem;
+}
+
+@media screen and (max-width: 576px) {
+  .details {
+    flex-flow: row wrap;
+  }
+
+  .actions {
+    width: 100%;
+    max-width: none;
+   }
+}
+

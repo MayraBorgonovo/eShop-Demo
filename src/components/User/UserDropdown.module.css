@@ -1,0 +1,29 @@
+.userMenu {
+  width: 20rem;
+  right: 5.4rem;
+  text-align: left;
+}
+
+.userMenu li span,
+.userMenu li a {
+  display: block;
+  color: #646464;
+  padding: 1rem;
+}
+
+.login a,
+.user span {
+  color: black !important;
+  border-bottom: 1px solid #bebdbd;
+}
+
+.userMenu li:hover, 
+.userMenu li a:hover {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.user span:hover {
+  cursor: auto;
+  font-weight: 400;
+}

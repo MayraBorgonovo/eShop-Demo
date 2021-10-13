@@ -1,0 +1,54 @@
+.orderDetails h3{
+  padding: 1rem 0;
+  border-bottom: 2px solid #f1f1f1;
+}
+
+.orderDetails span{
+  color: #505050;
+  font-weight: bold;
+}
+
+.items {
+  display: flex;
+}
+
+.items li {
+  width: 30%;
+  margin: 1rem;
+  position: relative;
+}
+
+.image img { 
+  display: block;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.itemDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 7.5rem;
+}
+
+.itemDetails h4 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 0.5rem 0;
+}
+
+.itemDetails p {
+  margin: 0.5rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .orderDetails {
+    width: 100%;
+    max-width: none;
+  }
+
+  .orderDetails {
+    height: fit-content;
+  }
+}

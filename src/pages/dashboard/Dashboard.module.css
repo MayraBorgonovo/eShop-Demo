@@ -1,0 +1,22 @@
+.detail {
+  width: 60%;
+  max-width: 60rem;
+  height: fit-content;
+  min-height: 64vh;
+  background: white;
+  margin: 1rem;
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .detail {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .detail {
+    min-height: 55vh;
+  }
+}

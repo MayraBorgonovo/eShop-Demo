@@ -1,0 +1,30 @@
+.productList {
+  width: 100%;
+}
+
+.productList td {
+  padding: 1rem;
+}
+
+.img {
+  width: 8rem;
+}
+
+.img img {
+  width: 100%;
+}
+
+.small {
+  width: 5rem;
+}
+
+.small button{
+  background: #d53333;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px) {
+  .productList {
+    margin: 0 auto;
+  }
+}

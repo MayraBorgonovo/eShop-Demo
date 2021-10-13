@@ -1,0 +1,63 @@
+.paymentDetails {
+  background: white;
+  width: 60%;
+  max-width: 50rem;
+  margin: 1rem;
+  padding: 1rem 3rem;
+}
+
+.error {
+  color: red;
+}
+
+.innerGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.innerGroup div {
+  width: 40%;
+  margin: 0;
+}
+
+.control {
+  text-align: left;
+  margin: 1rem 0;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  width: 35%;
+}
+
+.control label {
+  font-weight: bold;
+  display: block;
+  flex: 1;
+  color: #464646;
+  margin-top: 0.5rem;
+}
+
+.control select {
+  font: inherit;
+  flex: 3;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+}
+
+.group select:focus {
+  outline: none;
+  box-shadow: 0px 0px 2px 2px rgb(16 138 224 / 40%);
+}
+
+.cardGroup p {
+  color: #656565;
+  font-size: 1.2rem;
+  margin-top: -1rem;
+}
+
+@media screen and (max-width: 576px) {
+  .paymentDetails {
+    width: 100%;
+  }
+}

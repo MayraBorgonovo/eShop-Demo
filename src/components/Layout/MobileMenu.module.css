@@ -1,0 +1,35 @@
+.mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  height: 100vh;
+  text-align: left;
+  padding: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22rem;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%);
+}
+
+.visible {
+  transform: translateX(0%);
+}
+
+.mobile a {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  padding: 2rem 0;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+  text-decoration: none;
+  transition: color 0.3s linear;
+  text-align: center;
+}
+
+.mobile a:hover,
+.mobile a:focus {
+  font-weight: bold;
+}

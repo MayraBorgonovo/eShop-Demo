@@ -1,0 +1,41 @@
+.control {
+  text-align: left;
+  margin: 1rem 0;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+.control label,
+.control input {
+  display: block;
+}
+
+.control label {
+  font-weight: bold;
+  flex: 1;
+  color: #464646;
+  margin-top: 0.5rem;
+}
+
+.control input {
+  flex: 3;
+  font: inherit;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+}
+
+.control input:focus {
+  outline: none;
+  box-shadow: 0px 0px 2px 2px rgb(16 138 224 / 40%);
+}
+
+.control.invalid input {
+  border-color: red;
+  box-shadow: 0px 0px 1px 1px rgb(224 16 40 / 20%);
+}
+
+.control.invalid {
+  margin: 0;
+}

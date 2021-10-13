@@ -1,0 +1,81 @@
+.empty h2 {
+  padding-bottom: 2rem;
+}
+
+.bagMenu {
+  width: 35rem;
+  right: 0;
+}
+
+.bagMenu ul {
+  max-height: 27rem;
+  overflow-y: auto;
+}
+
+.bagMenu::-webkit-scrollbar { width: 0 !important }
+
+.bagMenu { overflow: -moz-scrollbars-none; }
+
+.bagMenu h2 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin: 1.5rem 0 0 0;
+  text-align: center;
+}
+
+.bagMenu p {
+  text-align: center;
+}
+
+.bagMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bagMenu h3 {
+  font-size: 1.2rem;
+  margin: 0.3rem 0;
+}
+
+.bagMenu a {
+  text-decoration: underline;
+}
+
+.actions {
+  padding: .8rem;
+  border-top: 1px solid #bebdbd;
+}
+
+.actions span {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bagMenu {
+    width: 100%;
+  }
+}

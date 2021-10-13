@@ -1,0 +1,27 @@
+
+.socialLogin h3 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.socialLogin button {
+  background: white;
+  color: black;
+  border: 1px solid #c3c3c3;
+}
+
+.socialLogin button:hover {
+  background-color: #ebe8e8;
+  border-color: #ebe8e8;
+}
+
+.toggle span {
+  cursor: pointer;
+  margin-left: 5px;
+  color: #0000EE;
+}
+
+.toggle span:hover {
+  color: #5656fa;
+}

@@ -1,0 +1,47 @@
+.sidebar {
+  width: 26rem;
+  height: fit-content;
+  margin: 1rem;
+  background: white;
+}
+
+.welcome {
+  padding: 2rem;
+  border-bottom: 1rem solid #f1f1f1;
+}
+
+.welcome h2 {
+  margin: 0.5rem 0;
+  font-weight: 1.7rem;
+}
+
+.welcome p {
+  margin: 0;
+}
+
+.sidebar ul {
+  background: white;
+  list-style: none;
+  margin: 1rem 0;
+}
+
+.sidebar ul li {
+  padding: 1rem;
+}
+
+.icons {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.logout {
+  cursor: pointer;
+  border-top: 2px solid #f1f1f1;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    max-width: none;
+  }
+}

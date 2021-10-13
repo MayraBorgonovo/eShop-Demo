@@ -1,0 +1,81 @@
+.navBtn {
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  padding: 1.5rem;
+  height: 100%;
+}
+
+.navBtn:active,
+.navBtn:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+a.navBtn {
+  display: none;
+  visibility: hidden;
+}
+
+.navBtn span {
+  font-size: 1.1rem;
+  background: #e4e3e3;
+  border-radius: 50%;
+  padding: 0.2rem 0.35rem;
+  color: #1d1d1d;
+  margin-left: -3px;
+  margin-right: 3px;
+}
+
+.dropdown {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 4px 6px 1px rgb(0 0 0 / 10%);
+  font-size: 1.3rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s,
+    z-index 0s linear 0.01s;
+  z-index: -1;
+  transform: translateY(-2rem);
+}
+
+.dropdown ul li {
+  width: 100%;
+  clear: both;
+}
+
+.arrowUp {
+  margin-top: -1.5rem;
+  float: right;
+  margin-right: 2.4rem;
+  width: 0;
+  height: 0;
+  border-left: 0.9rem solid transparent;
+  border-right: 0.9rem solid transparent;
+  border-bottom: 1.5rem solid white;
+}
+
+@media screen and (min-width: 768px) {
+  li:focus .dropdown,
+  li:focus-within .dropdown,
+  li:hover .dropdown {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    transform: translateY(0%);
+    transition-delay: 0s, 0s, 0.3s;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  button.navBtn {
+    display: none;
+    visibility: hidden;
+  }
+
+  a.navBtn {
+    display: block;
+    visibility: visible;
+  }
+}

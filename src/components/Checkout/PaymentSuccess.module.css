@@ -1,0 +1,17 @@
+.paymentSuccess {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  align-items: center;
+  text-align: left;
+  height: fit-content;
+  padding: 2rem;
+  margin-top: 5rem;
+}
+
+.paymentSuccess svg {
+  display: block;
+  width: 40%;
+  color: #4BB543;
+  font-size: 7rem;
+}

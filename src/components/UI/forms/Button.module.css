@@ -1,0 +1,28 @@
+.btn {
+  display: block;
+  width: 100%;
+  max-width: 50rem;
+  cursor: pointer;
+  font: inherit;
+  text-transform: uppercase;
+  font-weight: 300;
+  border: 1px solid black;
+  padding: .8rem 2.5rem;
+  margin: 1.5rem auto;
+  color: white;
+  background-color: black;
+}
+
+.btn:hover {
+  background-color: #4e4e4e;
+  border-color: #4e4e4e;
+  color: #f1f1f1;
+  transition: all .4s ease-in-out;
+}
+
+.btn:disabled,
+.btn:disabled:hover {
+  cursor: not-allowed;
+  background: #ccc;
+  color: black;
+}

@@ -1,0 +1,38 @@
+.main {
+  width: 100%;
+  max-width: 1300px;
+  height: 100vh;
+  background-image: url("../../assets/404.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.content {
+  width: 30rem;
+  position: absolute;
+  left: 20%;
+  top: 10%;
+}
+
+.content a {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  background: #23A1E9;
+  border-radius: 4px;
+  margin: 2rem 0;
+  color: white;
+  box-shadow: -1px 3px 4px 1px rgb(0 0 0 / 10%);
+}
+
+.content a:hover {
+  background: #47b4f3;
+  transform: scale(1.02);
+}
+
+@media screen and (max-width: '768px') {
+  .content {
+    left: 5%;
+    top: 5%;
+  }  
+}
