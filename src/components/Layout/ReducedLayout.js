@@ -20,7 +20,7 @@ const ReducedLayout = (props) => {
   return (
     <>
       <header className={classes.header}>
-        <div className="logo">
+        <div className="logo" style={{marginLeft: '0'}}>
           <Link to="/">LOGO</Link>
         </div>
 
